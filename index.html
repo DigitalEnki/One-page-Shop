@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One stop shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="col-8 text-right d-flex align-items-center justify-content-end">
+                <ul>
+                    <li>
+                        <a href="#">Browse/Cart</a>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12 text-center mt-5">
+                <h1>Welcome to the future of online shopping</h1>
+                <p>Getting started is easy, simply start typing your product name in and our helpful auto-hinter will help you find what you're looking for.</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <th>Product Name</th>
+                        <th>Quantity Needed</th>
+                        <th>Action</th>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td class="search-wrapper">
+                                <input class="form-control" type="search" placeholder="Start typing your product name..">
+
+                                <div class="product-name-hints">
+                                    <ul>
+                                        <li>Product 1</li>
+                                        <li>Product 3</li>
+                                        <li>Product 3</li>
+                                        <li>Product 3</li>
+                                        <li>Product 3</li>
+                                        <li>Product 3</li>
+                                        <li>Product 3</li>
+                                    </ul>
+                                </div>
+
+                            </td>
+                            <td><input class="form-control" type="number" value="50"></td>
+                            <td><button class="btn btn-primary btn-block">Add</button></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script src="ui.js"></script>
+</body>
+</html>
