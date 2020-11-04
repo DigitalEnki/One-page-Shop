@@ -58,7 +58,16 @@ header {
         &:hover {
           background: #d0d0d0;
         }
+
+        em {
+          font-style:normal;
+          border-bottom:solid 1px #000;
+        }
       }
     }
   }
+}
+
+button[disabled] {
+  opacity:0.2 !important;
 }
